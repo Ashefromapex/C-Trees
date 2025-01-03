@@ -2,12 +2,6 @@
 #include <stdlib.h>
 #include <time.h>
 
-/*typedef union {
-    int zahl;
-    double kommazahl;
-    char* Stringpointer;
-} data;
-*/
 struct tree{
     struct tree *nachfolgerR;
     struct tree *nachfolgerL;
